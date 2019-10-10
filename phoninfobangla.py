@@ -35,7 +35,7 @@ def info():
                 def time():
                         p=phonenumbers.parse(b)
                         e=timezone.time_zones_for_number(p)
-                        print("সময়যাত্রা=",e"\n"")
+                        print("সময়যাত্রা=",e)
                 time()
 
 #               def infos():
